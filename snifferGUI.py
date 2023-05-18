@@ -111,7 +111,7 @@ class SnifferGui(object):
         item.setText(_translate("MainWindow", "长度"))
         item = self.tableWidget.horizontalHeaderItem(6)
         item.setText(_translate("MainWindow", "详情"))
-        self.toolbar.setWindowTitle(_translate("MainWindow", "工具栏"))
+        self.toolbar.setWindowTitle(_translate("MainWindow", "tools"))
 
         self.tableWidget.horizontalHeader().setSectionsClickable(False)
         self.tableWidget.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
